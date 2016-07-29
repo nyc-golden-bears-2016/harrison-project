@@ -26,6 +26,10 @@ div {
 	background-color: red;
 }
 
+.npc {
+  background-color: #00FFFF;
+}
+
 .row_end {
 	display: block;
 	width: 0px;
@@ -81,6 +85,14 @@ div {
   background-image: url("../image_resources/nanoha.jpg");
 }
 
+.KonaWaifu {
+  background-image: url("../image_resources/konata_waifu.jpg");
+}
+
+.HomuShotgun {
+  background-image: url("../image_resources/homura_shotgun.jpg");
+}
+
 .divider {
   display: block;
   font-size: 0;
@@ -100,3 +112,29 @@ div {
   background-repeat: no-repeat;
   background-size: 200px 300px;
 }
+
+.dialogue {
+  position: fixed;
+  left: 10px;
+  top: 200px;
+  width: 800px;
+  font-size: 30px;
+  color: blue;
+}
+
+.challenge {
+  position: fixed;
+  left: 10px;
+  top: 400px;
+  font-size: 24px;
+  color: blue;
+}
+
+.npc_name {
+  position: fixed;
+  left: 10px;
+  top: 50px;
+  font-size: 24px;
+  color: blue;
+}
+
