@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block;
+	height: 600px;
+	width: 800px;
+	font-size: 0;
+	background-color: red;
+}
+
+div {
+	font-size: 0;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+
+.undefined {
+	background-color: green;
+}
+
+.wall {
+	background-color: red;
+}
+
+.row_end {
+	display: block;
+	width: 0px;
+	height: 0px;
+}
+
+.p1 {
+	background-color: orange;
+}
+
+
+.player_health {
+	float: left;
+	width: 5px;
+	height: 5px;
+	background-color: blue;
+}
+
+.opponent_health {
+	width: 5px;
+	height: 5px;
+	background-color: blue;
+}
+
+.top {
+  /*left: 0px;*/
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  /*background-image: url("homura.jpg");*/
+}
+
+.Homura {
+	background-image: url("../image_resources/homura.jpg");
+}
+
+.Konata {
+	background-image: url("../image_resources/konata.jpg");
+}
+
+.Mahoro {
+  background-image: url("../image_resources/mahoro.jpg");
+}
+
+.Nanoha {
+  background-image: url("../image_resources/nanoha.jpg");
+}
+
+.divider {
+  display: block;
+  font-size: 0;
+  height: 320px;
+  background-color: red;
+}
+
+.bottom {
+  /*left: 500px;*/
+  position: absolute;
+  display: inline-block;
+  margin-top: 10px;
+  width: 200px;
+  height: 300px;
+  /*background-color: orange;*/
+  background-image: url("http://vignette1.wikia.nocookie.net/steven-universe/images/9/9a/Dat_boi.gif/revision/latest?cb=20160716123916");
+  background-repeat: no-repeat;
+  background-size: 200px 300px;
+}
