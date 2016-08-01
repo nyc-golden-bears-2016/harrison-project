@@ -1,6 +1,6 @@
 client = Twitter::REST::Client.new do |config|
-  config.consumer_key    = "GFuRhtnpK9u12ZNrYxEHbetjC"
-  config.consumer_secret = "DMJ9FZqz4NMOi4SIfNBVgqyYv4Fksex3gmRhfOqO7Wk6DSs8J5"
+  config.consumer_key    = "****"
+  config.consumer_secret = "****"
 end
 
 def client.get_latest_tweet(username)
